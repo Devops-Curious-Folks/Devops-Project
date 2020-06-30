@@ -275,6 +275,6 @@ function openNav() {
   }
 }
 </script>
-<h4>Welcome to social app<h4>
+<h4>Welcome To APP<h4>
 </body>
 </html> 

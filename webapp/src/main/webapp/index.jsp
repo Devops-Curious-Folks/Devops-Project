@@ -75,10 +75,10 @@ body, html {
 <body>
 
 <div class="navbar">
-  <a href="https://linuxhero.tk">Home</a>
+  <a href="https://linuxheo.">Home</a>
    
-    <a href="https://linuxhero.tk/#about">About</a>
-    <a href="https://linuxhero.tk/#contact">Contact Us</a>
+    <a href="https://linuhero./#about">About</a>
+    <a href="https://linuhero./#contact">Contact Us</a>
   </div>
 <!-------------Top Menu End------------->
 

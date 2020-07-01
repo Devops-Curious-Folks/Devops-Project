@@ -1,107 +1,194 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Facebook - The Social Network</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="assets/css/style.css"/>
-        <style>
-            .signup-form{
-                background: rgba(255,255,255,1);
-                padding: 10px 20px;
-                border-radius: 2px;
-                box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.4);
-            }
-        </style>
-        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+  }
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <a href="https://linuxhero.tk">Home</a>
+   
+    <a href="https://linuxhero.tk/#about">About</a>
+    <a href="https://linuxhero.tk/#contact">Contact Us</a>
+  </div>
+<!-------------Top Menu End------------->
+
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+  <div class="w3-container">
+  <div class="w3-content" style="max-width:700px">
+   <img src="/devops.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+  </div>
+     
+<!-- Content -->
+<div class="w3-container">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">What is Devops?</span></h5>
+    <p><i> The word “DevOps” was coined in 2009 by Patrick Debois, who became one of its gurus. The term was formed by combining “development” and “operations,” which provides a starting point for understanding exactly what people typically mean when they say “DevOps.” Notably, DevOps isn’t a process or a technology or a standard. Many devotees refer to DevOps as a “culture”—a viewpoint that New Relic favors. We also use the term “DevOps movement” when talking about topics such as adoption rates and trends for the future, and “DevOps environment” to refer to an IT organization that has adopted a DevOps culture.<i><p>
+    <br>
+    <p><i>This primer will have a great deal more to say about DevOps, but to get started, we need a serviceable definition. We like this one from "Gartner":<i><p>
+    <marquee behavior="scroll" bgcolor="#d9d9ff" direction="left">"DevOps represents a change in IT culture, focusing on rapid IT service delivery through the adoption of agile, lean practices in the context of a system-oriented approach. DevOps emphasizes people (and culture), and seeks to improve collaboration between operations and development teams. DevOps implementations utilize technology— especially automation tools that can leverage an increasingly programmable and dynamic infrastructure from a life cycle perspective.". ~ Linus Torvalds</marquee>
+   
+ 
+   <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">What are DevOps principles?</span></h5>
+   
+<p><i>In short, the main principles of DevOps are automation, continuous delivery, and fast reaction to feedback. <br>You can find a more detailed explanation of DevOps pillars in the CAMS acronym:
+<br>
+<br>Culture represented by human communication, technical processes, and tools
+
+<br>Automation of processes
+
+<br>Measurement of KPIs
+
+<br>Sharing feedback, best practices, and knowledge
+
+<br>Adherence to these principles is achieved through a number of DevOps practices that include continuous delivery, frequent deployments, QA automation, validating ideas as early as possible, and in-team collaboration.<i><p>   
+   <br>
+   <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">The benefits of DevOps</span></h5>
+  <p><i>Companies that incorporate DevOps practices get more done, plain and simple. With a single team composed of cross-functional members all working in collaboration, DevOps organizations can deliver with maximum speed, functionality, and innovation.<i><p>
+<br>
+<p><i>There are technical benefits:-
+<br>
+<br>-Continuous software delivery
+<br>-Less complexity to manage
+<br>-Faster resolution of problems<i><p>
+<br>
+<p><i>There are cultural benefits:
+<br>
+<br>-Happier, more productive teams
+<br>-Higher employee engagement
+<br>-Greater professional development opportunities<i><p>
+
+<p><i>There are business benefits:
+<br>
+<br>-Faster delivery of features
+<br>-More stable operating environments
+<br>-Improved communication and collaboration
+<br>-More time to innovate (rather than fix/maintain)<i><p>
+
+  </div>
+</div>
+
+<!-- Menu Container -->
+
+
+<!-- Contact/Area Container -->
+ 
+
+
+<!-- End page content -->
+</div>
+<!-- hitwebcounter Code START -->
+<h5><span class="w3-code w3-red">views</span></h5> 
+<a href="https://www.hitwebcounter.com" target="_blank">
+<img src="https://hitwebcounter.com/counter/counter.php?page=7226025&style=0003&nbdigits=1&type=page&initCount=0" title="User Stats" Alt="PHP Hits Count"   border="0" >
+</a>                                    
+    <script data-ad-client="ca-pub-9816877488746708" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>                
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-48 w3-large">
+  
+<body>
+   <div class="list-group">
+     <a class="fa fa-linkedin-square" style="font-size:48px;color:white"></a>
+    </div>
+   </body>
+  
+</footer>
+
 <script>
-  (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-8894073675575663",
-    enable_page_level_ads: true
-  });
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-black", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-black";
+}
+document.getElementById("myLink").click();
 </script>
-    </head>
-    <body>
-        <div class="header">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-sm-4">
-                        <div class="logo">
-                            <h1>Facebook</h1>
-                        </div>
-                    </div>
-                    <div class="col-sm-8 pull-right">
-                        <div class="inline-form pull-right">
-                            <form action="javascript:void(0)" method="POST" onsubmit="window.location.href='login.html';return false;">
-                                <input type="text" name="user_email" placeholder="Email Address"/>
-                                <input type="password" name="user_email" placeholder="Password"/>
-                                <input type="submit" value="Login" class="btn btn-primary"/>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="main">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="pull-left text-center col-sm-7">
-                        <div style="display:none">
-                            <h3 class="text-primary">Facebook helps you connect and share with the people in your life.</h3>
-                            <img src="assets/imgs/globe.png" class="img-responsive"/>                            
-                        </div>
-                    </div>
-                    <div class="pull-right col-sm-5">
-                        <div class="signup-form">
-                            <h1>Create a new account</h1>
-                            <p class="h3">It's free and always help you waste your time ;-) .</p>
-                            <form action="javascript:void(0);">
-                                <div class="form-group">
-                                    <input type="text" placeholder="First Name" name="fname" class="input-lg col-sm-6"/>
-                                    <input type="text" placeholder="Last Name" name="lname" class="input-lg col-sm-6"/>
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" placeholder="Email Address" name="email" class="input-lg col-sm-12"/>
-                                </div>
-                                <div class="form-group">
-                                    <input type="password" placeholder="New Password" name="pwd" class="input-lg col-sm-12"/>
-                                </div>
-                                <div class="form-group">
-                                    <p style="font-size:20px">Birthday</p>
-                                    <select class="col-sm-4 input-lg" name="date">
-                                        <option value="0" selected="selected">Day</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option><option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option><option value="26">26</option><option value="27">27</option><option value="28">28</option><option value="29">29</option><option value="30">30</option><option value="31">31</option>
-                                    </select>
-                                    <select class="col-sm-4 input-lg" name="month"><option value="0" selected="selected">Month</option><option value="1">Jan</option><option value="2">Feb</option><option value="3">Mar</option><option value="4">Apr</option><option value="5">May</option><option value="6">Jun</option><option value="7">Jul</option><option value="8">Aug</option><option value="9">Sept</option><option value="10">Oct</option><option value="11">Nov</option><option value="12">Dec</option></select>
-                                    <select class="col-sm-4 input-lg" name="year"><option value="0" selected="1">Year</option><option value="2017">2017</option><option value="2016">2016</option><option value="2015">2015</option><option value="2014">2014</option><option value="2013">2013</option><option value="2012">2012</option><option value="2011">2011</option><option value="2010">2010</option><option value="2009">2009</option><option value="2008">2008</option><option value="2007">2007</option><option value="2006">2006</option><option value="2005">2005</option><option value="2004">2004</option><option value="2003">2003</option><option value="2002">2002</option><option value="2001">2001</option><option value="2000">2000</option><option value="1999">1999</option><option value="1998">1998</option><option value="1997">1997</option><option value="1996">1996</option><option value="1995">1995</option><option value="1994">1994</option><option value="1993">1993</option><option value="1992">1992</option><option value="1991">1991</option><option value="1990">1990</option><option value="1989">1989</option><option value="1988">1988</option><option value="1987">1987</option><option value="1986">1986</option><option value="1985">1985</option><option value="1984">1984</option><option value="1983">1983</option><option value="1982">1982</option><option value="1981">1981</option><option value="1980">1980</option><option value="1979">1979</option><option value="1978">1978</option><option value="1977">1977</option><option value="1976">1976</option><option value="1975">1975</option><option value="1974">1974</option><option value="1973">1973</option><option value="1972">1972</option><option value="1971">1971</option><option value="1970">1970</option><option value="1969">1969</option><option value="1968">1968</option><option value="1967">1967</option><option value="1966">1966</option><option value="1965">1965</option><option value="1964">1964</option><option value="1963">1963</option><option value="1962">1962</option><option value="1961">1961</option><option value="1960">1960</option><option value="1959">1959</option><option value="1958">1958</option><option value="1957">1957</option><option value="1956">1956</option><option value="1955">1955</option><option value="1954">1954</option><option value="1953">1953</option><option value="1952">1952</option><option value="1951">1951</option><option value="1950">1950</option><option value="1949">1949</option><option value="1948">1948</option><option value="1947">1947</option><option value="1946">1946</option><option value="1945">1945</option><option value="1944">1944</option><option value="1943">1943</option><option value="1942">1942</option><option value="1941">1941</option><option value="1940">1940</option><option value="1939">1939</option><option value="1938">1938</option><option value="1937">1937</option><option value="1936">1936</option><option value="1935">1935</option><option value="1934">1934</option><option value="1933">1933</option><option value="1932">1932</option><option value="1931">1931</option><option value="1930">1930</option><option value="1929">1929</option><option value="1928">1928</option><option value="1927">1927</option><option value="1926">1926</option><option value="1925">1925</option><option value="1924">1924</option><option value="1923">1923</option><option value="1922">1922</option><option value="1921">1921</option><option value="1920">1920</option><option value="1919">1919</option><option value="1918">1918</option><option value="1917">1917</option><option value="1916">1916</option><option value="1915">1915</option><option value="1914">1914</option><option value="1913">1913</option><option value="1912">1912</option><option value="1911">1911</option><option value="1910">1910</option><option value="1909">1909</option><option value="1908">1908</option><option value="1907">1907</option><option value="1906">1906</option><option value="1905">1905</option></select>
-                                </div>
-                                <div class="form-group">
-                                        <label for="sex_male" class="input-lg">
-                                            <input type="radio" name="sex" value="male" id="sex_male"> Male
-                                        </label>
-                                        <label for="sex_female" class="input-lg">
-                                            <input type="radio" name="sex" value="female" id="sex_female"> Female
-                                        </label>
-                                </div>
-                                <div class="form-group">
-                                    <small class="text-mute">By clicking Create Account, you agree to our Terms and confirm that you have read our Data Policy, including our Cookie Use Policy. You may receive SMS message notifications from Facebook and can opt out at any time.</small>
-                                </div>
-                                <div class="form-group">
-                                    <input type="submit" value="Create Account" class="btn btn-success input-lg"/>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-sm-12">
-                        &copy; Facebook 2017.
-                    </div>
-                </div>
-            </div>
-        </div>
-    </body>
+
+
+</script>
+<!--End of Tawk.to Script-->
+  
+</body>
 </html>
